@@ -24,7 +24,7 @@ global.ownernomer = "6285812373011"
 global.premium = ['6285812373011']
 global.packname = 'Fanzbotzz'
 global.author = 'Fanz'
-global.sessionName = 'nazedev'  //jangan diganti bro nanti error
+global.sessionName = 'fanz'  //jangan diganti bro nanti error
 global.prefa = ['','!','.','#','&']
 global.sp = ''
 global.mess = {
@@ -43,7 +43,7 @@ global.limitawal = {
     premium: "Infinity",
     free: 25
 }
-global.thumb = fs.readFileSync('./image/naze.jpg')
+global.thumb = fs.readFileSync('./image/fanz.jpg')
 global.vaze = { url: 'https://telegra.ph/file/a66f72e2100c4d3e35b8a.mp4' }
 
 let file = require.resolve(__filename)
