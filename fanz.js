@@ -2928,7 +2928,7 @@ let alfamart = `628111500959@s.whatsapp.net`
             let ments = [ownernya, me, ini_mark]
             let kukiw = `*${ucapanWaktu}*
 ╭──❍「 𝙄𝙉𝙁𝙊 𝙐𝙎𝙀𝙍 」❍
-├ *Nama* : ${pushname}
+├ *Nama* : 𝐅𝐚𝐧𝐳𝐁𝐨𝐭𝐳𝐳🪐
 ├ *Number* : ${me.split('@')[0]}
 ├ *Premium* : ${isPremium ? '✅' : `❌`}
 ├ *Limit* : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
