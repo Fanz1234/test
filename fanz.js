@@ -2928,14 +2928,14 @@ let alfamart = `628111500959@s.whatsapp.net`
             let ments = [ownernya, me, ini_mark]
             let kukiw = `*${ucapanWaktu}*
 ╭──❍「 𝙄𝙉𝙁𝙊 𝙐𝙎𝙀𝙍 」❍
-├ *Nama* : 𝐅𝐚𝐧𝐳𝐁𝐨𝐭𝐳𝐳🪐
+├ *Nama* : ${pushname}
 ├ *Number* : ${me.split('@')[0]}
 ├ *Premium* : ${isPremium ? '✅' : `❌`}
 ├ *Limit* : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
 ╰──❍
 
 ╭──❍「 𝙄𝙉𝙁𝙊 𝘽𝙊𝙏 」❍
-├ *Nama Bot* : ${pushname}
+├ *Nama Bot* : 𝐅𝐚𝐧𝐳𝐁𝐨𝐭𝐳𝐳🪐
 ├ *Mode* : ${fanz.public ? 'Public' : `Self`}
 ├ *Prefix* :「 MULTI-PREFIX 」
 ╰──❍
