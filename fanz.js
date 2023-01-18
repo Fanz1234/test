@@ -2904,7 +2904,7 @@ let alfamart = `628111500959@s.whatsapp.net`
 ╰──❍
 
 ╭──❍「 𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 」❍
-├ *Nama Bot* : ${pushname}
+├ *Nama Bot* : 𝐅𝐚𝐧𝐳𝐁𝐨𝐭𝐳𝐳🪐
 ├ *Powered* : @${ini_mark.split('@')[0]}
 ├ *Owner* : @${ownernya.split('@')[0]}
 ├ *Mode* : ${fanz.public ? 'Public' : `Self`}
