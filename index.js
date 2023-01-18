@@ -72,7 +72,7 @@ async function startNaze() {
     const naze = nazeConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Xavey','Firefox','1.0.0'],
+        browser: ['Fanz','Firefox','1.0.0'],
         auth: state
     })
 
