@@ -3669,7 +3669,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⌗ ${prefix}setmenu [option]
 │
 └───────𖦹Ꜥꜥ
-_Support saya_\n_Dengan Cara Berdonasi_\n_Supaya Bot Bisa Aktif Terus:)_`
+_Support saya_\n_Dengan Cara Berdonasi_\n_Supaya Bot Aktif Terus:)_`
                 let buttons = [{ buttonId: 'donasi', buttonText: { displayText: '⌕ Donasi' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '⌕ rules' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, anu, nyoutube, m, {mentions: ments, quoted: fkontak})
             }
