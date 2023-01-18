@@ -3669,7 +3669,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⌗ ${prefix}setmenu [option]
 │
 └───────𖦹Ꜥꜥ
-_Support kami_\n_Dengan Cara Berdonasi_`
+_Support Saya_\n_Dengan Cara Berdonasi_\n_Supaya Bot Aktif Terus:)_`
                 let buttons = [{ buttonId: 'donasi', buttonText: { displayText: '⌕ Donasi' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '⌕ rules' }, type: 1 }]
             await fanz.sendButtonText(m.chat, buttons, anu, nyoutube, m, {mentions: ments, quoted: fkontak})
             }
