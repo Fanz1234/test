@@ -601,7 +601,7 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                fanz.sendMessag(m.chat, { image : fs.readFileSync("./image/fanz.jpg")}, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan via Dana*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://saweria.co/Fanz411\n\n*Atau Transfer via*\n- *Dana*\n chat nomor berikut : wa.me/6285812373011\n\n_Terima kasih_` }, { quoted: m })
+                fanz.sendMessage(m.chat, { image : fs.readFileSync("./image/fanz.jpg")}, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan via Dana*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://saweria.co/Fanz411\n\n*Atau Transfer via*\n- *Dana*\n chat nomor berikut : wa.me/6285812373011\n\n_Terima kasih_` }, { quoted: m })
             }
             break
             case 'sc': {
