@@ -601,7 +601,7 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                fanz.sendMessage(m.chat, { image: { url: 'https://asset.kompas.com/crops/iFErOVsv-tbW5AR5JSPOmMEA0NM=/121x0:1000x586/750x500/data/photo/2019/07/03/2998909183.jpg' }, caption: `*Hai Ngab:v ${m.pushName}*\n\nDonasinya disini ngab:v\nDANA: 085812373011\n\n*Makasih 🙏*` }, { quoted: m })
+                fanz.sendMessage(m.chat, caption: `*Hai Ngab:v ${m.pushName}*\n\nDonasinya disini ngab:v\nDANA: 085812373011\n\n*Makasih 🙏*` }, { quoted: m })
             }
             break
             case 'sc': {
