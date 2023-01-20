@@ -2484,7 +2484,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'tiktok': case 'tiktoknowm': {
                 if (!text) throw 'Masukkan Query Link!'
                 m.reply(mess.wait)
-                let anu = await fetchJson(`https://saipulanuar.ga/api/download/tiktok?url=${text}&apikey=APIKEY`)
+                let anu = await fetchJson(`https://saipulanuar.ga/api/download/tiktok?url=${text}&apikey=danzz`)
                 let buttons = [
                     {buttonId: `allmenu`, buttonText: {displayText: '⌕ list menu'}, type: 1},
                     {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '♫ Audio'}, type: 1}
