@@ -2601,7 +2601,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 	        case 'fbdl': case 'fb': case 'facebook': {
                 if (!text) throw 'Masukkan Query Link!'
                 m.reply(mess.wait)
-                let anu = await fetchJson(api('zenz', '/api/downloader/facebook', { url: text }, 'apikey'))
+                let anu = await fetchJson(api('zenz', '/api/download/facebook', { url: text }, 'apikey'))
                 fanz.sendMessage(m.chat, { video: { url: anu.result.url }, caption: `⌗ Title : ${anu.result.title}`}, { quoted: m })
             }
             break
