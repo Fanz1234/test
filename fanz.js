@@ -2484,7 +2484,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'tiktok': case 'tiktoknowm': {
                 if (!text) throw 'Masukkan Query Link!'
                 m.reply(mess.wait)
-                let anu = await fetchJson(`https://saipulanuar.ga/api/download/tiktok?url=${text}&apikey=danzz`)
+                let anu = await fetchJson(`https://api.zeeoneofc.xyz/api/downloader/tiktok?url=${text}&apikey=2GLx5gnf`)
                 let buttons = [
                     {buttonId: `allmenu`, buttonText: {displayText: '⌕ list menu'}, type: 1},
                     {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '♫ Audio'}, type: 1}
@@ -2520,7 +2520,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'tiktokmp3': case 'tiktokaudio': {
                 if (!text) throw 'Masukkan Query Link!'
                 m.reply(mess.wait)
-                let anu = await fetchJson(`https://saipulanuar.ga/api/download/tiktok?url=${text}&apikey=APIKEY`)
+                let anu = await fetchJson(`https://api.zeeoneofc.xyz/api/downloader/tiktok?url=${text}&apikey=2GLx5gnf`)
                 let buttons = [
                     {buttonId: `allmenu`, buttonText: {displayText: '⌕ list menu'}, type: 1},
                     {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '► No Watermark'}, type: 1}
