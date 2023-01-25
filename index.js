@@ -68,17 +68,15 @@ if (global.db) setInterval(async () => {
     if (global.db.data) await global.db.write()
   }, 30 * 1000)
 
-async function fanzBot() {
-const { version, isLatest } = await fetchLatestBaileysVersion()
-const fanz = fanzConnect({
-logger: pino({ level: 'silent' }),
-printQRInTerminal: true,
-browser: ['Fanz','Safari','1.0.0'],
-auth: state,
-version
-})
+async function startfanz() {
+    const fanz = fanzConnect({
+        logger: pino({ level: 'silent' }),
+        printQRInTerminal: true,
+        browser: ['Fanz','Safari','1.0.0'],
+        auth: state
+    })
 
-store.bind(fanz.ev)
+    store.bind(fanz.ev)
     
     // anticall auto block
     fanz.ws.on('CB:call', async (json) => {
